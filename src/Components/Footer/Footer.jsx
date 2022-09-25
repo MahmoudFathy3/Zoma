@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-wapper">
           <div className="footer-left">
-            <h3>Electronics</h3>
+            <h3>Gaming Shop</h3>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Laboriosam ut numquam itaque officia repudiandae. Vel minima,
