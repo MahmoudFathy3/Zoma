@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
         </div>
         <p style={{ textAlign: "center", padding: "20px", color: "white" }}>
-          &copy; 2022 Electronics
+          &copy; 2022 Gaming Shop
         </p>
       </div>
     </footer>
