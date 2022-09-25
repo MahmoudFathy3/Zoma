@@ -1,0 +1,80 @@
+.contact{
+  width: 600px;
+  margin: 150px auto;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.contact h2 {
+  font-size: 50px;
+  font-weight: bold;
+  user-select: none;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 60%;
+  padding: 10px 15px;
+  border: 1px solid #DDD;
+  border-radius: 10px;
+}
+
+.contact form textarea {
+  resize: none;
+  height: 200px;
+}
+
+.contact form input:focus::placeholder,
+.contact form textarea:focus::placeholder{
+  opacity: 0;
+}
+
+.contact form button {
+  width: 60%;
+  padding: 15px;
+  border: 1px solid darkcyan;
+  border-radius: 15px;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.contact form button::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 0;
+  height: 100%;
+  color: white;
+  background-color: darkcyan;
+  border-radius: 15px;
+  z-index: -1;
+  transition: .6s;
+}
+
+.contact form button:hover::before{
+  border: 1px solid darkcyan;
+  width: 100%;
+}
+
+.contact form button:hover{
+  color: white;
+
+}

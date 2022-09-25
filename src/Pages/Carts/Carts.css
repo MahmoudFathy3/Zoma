@@ -1,0 +1,119 @@
+.Carts {
+  padding-top: 20px;
+  position: relative;
+}
+
+.Carts .container {
+  width: 1170px;
+  margin: auto;
+}
+.Carts .wapper {
+  height: 644px;
+  border-bottom: 1px solid #DDD;
+  overflow-y: auto;
+}
+
+.Carts .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Carts .title h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Carts .wapper table {
+  width: 100%;
+  text-align: center;
+}
+
+.Carts .wapper table th {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #DDD;
+  padding: 10px;
+}
+
+.Carts .wapper table td{
+  padding: 10px;
+  border-bottom: 1px solid #DDD;
+}
+.Carts .wapper table td.titles{
+  width: 60%;
+}
+.Carts .wapper table td p {
+  color: #555;
+}
+
+.Carts .wapper table img {
+  width: 130px;
+  height: 100px;
+}
+
+.Carts .wapper table td .quantity {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Carts .wapper table td .quantity button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px;
+  color: #333;
+}
+
+.Carts .container .supTotal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 0 15px;
+}
+
+.Carts .container .supTotal .info {
+  width: 400px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.Carts .container .supTotal .remove span {
+  color: #555;
+  cursor: pointer;
+} 
+
+.Carts .container .supTotal .info .wapper-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Carts .container .supTotal .info .wapper-price p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Carts .container .supTotal .info .wapper-price span {
+  color: #555;
+}
+
+.Carts .container .supTotal .info button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkcyan;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Carts .container .supTotal .info button:hover {
+  opacity: 0.76;
+}
