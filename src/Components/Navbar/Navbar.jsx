@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <p className="nav-logo">Electronics</p>
+      <p className="nav-logo">Gaming <span>Shop</span></p>
       <ul className="list">
         <li><Link to="/">Home</Link></li>
         <li><Link to="about">About</Link></li>
